@@ -1,0 +1,84 @@
+.navbar{
+  background-color: #3CB878;
+}
+
+
+#projects {
+  background-color: #3CB878;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+ /* hero */
+ #hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+ #hero h1 {
+  padding-top: 10px;
+  margin: 0 0 10px 0;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #050d18;
+  text-align: center;
+}
+
+#hero h1 span {
+  color: #3CB878;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  /* border-bottom: 3px solid #149ddd; */
+}
+#hero p {
+  color: #050d18;
+  /* margin-bottom: 50px; */
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 36px;
+  }
+  #hero p {
+    font-size: 10px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+  }
+  section {
+    padding-top: 6rem;
+  }
+}
+
+.jumbotron {
+  background-color: #3CB878;
+  margin-top: -200px;
+
+}
+@media (max-width: 768px) {
+  .jumbotron {
+    margin-top: -225px;
+    background-color: #3CB878;
+    font-size: 18px;
+    line-height: 36px;
+  }
+}
+
+#footer{
+  background-color: #3CB878;
+}
